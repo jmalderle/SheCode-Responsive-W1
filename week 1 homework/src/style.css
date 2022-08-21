@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #fff;
+  --button-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-button,
+.about-button {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
